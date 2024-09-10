@@ -11,10 +11,14 @@ const fun = () => {
 <template>
   <div class="">
     <div class="test w-[288px] h-[288px]" @click="fun">{{ msg }}</div>
+    <div class="hello">
+      <div class="chris">1111111</div>
+    </div>
   </div>
 </template>
 
-<style scoped>
+<style scoped lang="less">
+@chris: 30px;
 h1 {
   font-weight: 500;
   font-size: 2.6rem;
@@ -44,6 +48,10 @@ h3 {
   background: red;
 }
 .hello {
-  color: red;
+  color: yellow;
+  .chris {
+    font-size: @chris;
+    background: red;
+  }
 }
 </style>
