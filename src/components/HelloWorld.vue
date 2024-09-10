@@ -11,6 +11,7 @@ const fun = () => {
 <template>
   <div class="">
     <div class="test w-[288px] h-[288px]" @click="fun">{{ msg }}</div>
+    <a-button>Add</a-button>
     <div class="hello">
       <div class="chris">1111111</div>
     </div>
