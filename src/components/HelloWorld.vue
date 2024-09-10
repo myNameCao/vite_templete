@@ -2,19 +2,18 @@
 defineProps<{
   msg: string
 }>()
+
+const fun = () => {
+  console.log(111)
+}
 </script>
 
 <template>
   <div class="greetings">
+    <div class="test pb-[50px]" @click="fun"></div>
     <h1 class="green pb-[20px]">
       {{ msg }}
-      <button class="bg-gray-500">Button</button>
     </h1>
-    <h3>
-      You’ve successfully created a project with
-      <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>. What's next?
-    </h3>
   </div>
 </template>
 
@@ -40,5 +39,15 @@ h3 {
   .greetings h3 {
     text-align: left;
   }
+}
+
+.test {
+  width: 320px;
+  height: 160px;
+  background-color: bisque;
+  text-align: center；;
+}
+.hello {
+  color: red;
 }
 </style>
