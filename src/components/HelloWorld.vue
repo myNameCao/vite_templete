@@ -9,11 +9,8 @@ const fun = () => {
 </script>
 
 <template>
-  <div class="greetings">
-    <div class="test pb-[50px]" @click="fun"></div>
-    <h1 class="green pb-[20px]">
-      {{ msg }}
-    </h1>
+  <div class="">
+    <div class="test w-[288px] h-[288px]" @click="fun">{{ msg }}</div>
   </div>
 </template>
 
@@ -42,10 +39,9 @@ h3 {
 }
 
 .test {
-  width: 320px;
-  height: 160px;
-  background-color: bisque;
-  text-align: center；;
+  font-size: 16px;
+  text-align: center;
+  background: red;
 }
 .hello {
   color: red;
