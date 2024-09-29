@@ -8,5 +8,5 @@
     <a-select-option value="disabled" disabled>Disabled</a-select-option>
     <a-select-option value="Yiminghe">yiminghe</a-select-option>
   </a-select>
-  <div class="w-[300px] h-[300px] border-red-100 border border-solid"></div>
+  <div class="w-[750px] h-[300px] border-red-100 border border-solid"></div>
 </template>
